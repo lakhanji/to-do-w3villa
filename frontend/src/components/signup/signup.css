@@ -1,0 +1,100 @@
+/* Base Styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5; /* Light background */
+}
+
+/* Signup Component */
+.signup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #121212; /* Dark background for the signup card */
+  color: #e0e0e0;
+  
+}
+
+.container {
+  max-width: 800px;
+  background-color: #1e1e1e; /* Card background */
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  
+}
+
+/* Responsive Grid */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.column {
+  flex: 1;
+  padding: 20px;
+}
+
+/* Left Column - Heading */
+.col-left {
+  background-color: #272727; /* Accent background for left column */
+  color: #bb86fc;
+  text-align: center;
+ 
+}
+
+/* Form Inputs */
+.input-signup {
+  width: 100%;
+  border: 1px solid #3a3a3a;
+  border-radius: 5px;
+  background-color: #121212;
+  color: #e0e0e0;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.input-signup::placeholder {
+  color: #757575;
+}
+
+.input-signup:focus {
+  outline: none;
+  border-color: #bb86fc;
+}
+
+/* Buttons */
+.btn-signup {
+  width: 100%;
+  background-color: #bb86fc;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn-signup:hover {
+  background-color: #3700b3;
+  transform: translateY(-2px);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .col-left {
+      display: none; /* Hide the left column on smaller screens */
+  }
+
+  .column {
+      padding: 15px;
+  }
+
+  .btn-signup {
+      font-size: 16px;
+  }
+}

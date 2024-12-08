@@ -1,0 +1,19 @@
+.home {
+  width: 100%;
+  height: 100vh;
+  border: none;
+  outline: none;
+  background-color: rgba(55, 46, 46, 0.769);
+  border-radius: 10px;
+}
+.home h1 {
+  font-size: 60px;
+}
+.home-btn {
+  border: none;
+  outline: none;
+  background-color: rgba(240, 0, 0, 0.87);
+  border-radius: 15px;
+  color: rgb(241, 229, 229) !important;
+  font-weight: bold;
+}

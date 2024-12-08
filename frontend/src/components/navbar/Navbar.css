@@ -1,0 +1,61 @@
+/* Navbar styling for a light theme */
+.navbar {
+  background-color: rgba(55, 46, 46, 0.769); /* Light background */
+  box-shadow: 0 4px 6px rgba(55, 46, 46, 0.769); /* Subtle shadow for depth */
+  padding: 10px 20px;
+}
+
+.navbar-brand {
+  color: #d80b27; /* Dark text for contrast */
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.navbar-brand:hover {
+  color: #007bff; /* Blue color on hover */
+}
+
+/* Navbar links (Home, About Us, Todo, etc.) */
+.nav-link {
+  padding: 10px 15px;
+  border-radius: 15px; /* Rounded corners */
+  color: #65686a; /* Muted dark text */
+  text-decoration: none; /* Remove underline */
+  transition: all 0.3s ease; /* Smooth transition on hover */
+}
+
+.nav-link:hover {
+  background-color: #e9ecef; /* Light gray background on hover */
+  color: #ff0000; /* Blue text on hover */
+}
+
+/* Buttons for SignUp, SignIn, and LogOut */
+.btn-nav {
+  background-color: #ee1023; /* Blue background for buttons */
+  color: #e3dbdb; /* White text */
+  padding: 10px 20px;
+  border: none; /* Remove default border */
+  border-radius: 15px; /* Rounded corners */
+  text-decoration: none; /* Remove underline */
+  transition: all 0.3s ease; /* Smooth transition for hover */
+}
+
+.btn-nav:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+  color: #f8f9fa; /* Light text color on hover */
+}
+
+/* Responsive design for mobile */
+.navbar-toggler {
+  border: none;
+  background-color: #007bff; /* Blue for toggle button */
+  color: #ffffff; /* White text for toggler */
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.navbar-toggler:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}

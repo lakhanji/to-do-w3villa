@@ -1,0 +1,91 @@
+/* General styles for the dark theme */
+body {
+    background-color: #121212; /* Dark background */
+    color: #e0e0e0; /* Light text for contrast */
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Links */
+a {
+    color: #bb86fc; /* Highlighted purple for links */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #3700b3; /* Darker shade of purple on hover */
+}
+
+/* Buttons */
+button {
+    background-color: #1f1f1f; /* Dark button background */
+    color: #e0e0e0; /* Light button text */
+    border: 1px solid #3a3a3a;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #333333;
+}
+
+/* Inputs */
+input, textarea {
+    background-color: #1f1f1f;
+    color: #e0e0e0;
+    border: 1px solid #3a3a3a;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+input:focus, textarea:focus {
+    outline: none;
+    border-color: #bb86fc;
+}
+
+/* Headers */
+h1, h2, h3, h4, h5, h6 {
+    color: #ffffff;
+}
+
+/* Cards or Containers */
+.container {
+    background-color: #1e1e1e; /* Slightly lighter background for containers */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+}
+
+/* Tables */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    border: 1px solid #3a3a3a;
+    padding: 10px;
+    text-align: left;
+    color: #e0e0e0;
+}
+
+th {
+    background-color: #272727; /* Darker header background */
+}
+
+tr:nth-child(even) {
+    background-color: #1c1c1c;
+}
+
+/* Footer */
+footer {
+    background-color: #121212;
+    color: #e0e0e0;
+    text-align: center;
+    padding: 10px;
+    border-top: 1px solid #3a3a3a;
+}
