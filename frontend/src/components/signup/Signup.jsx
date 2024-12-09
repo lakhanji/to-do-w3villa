@@ -71,7 +71,7 @@ const Signup = () => {
             </div>
           </div>
           <div className=" col-lg-4 column col-left d-lg-flex justify-content-center align-items-center  d-none">
-          <HeadingComp first="Sign" second="Out" />
+          <HeadingComp first="Sign" second="Up" />
           
 
           </div>
